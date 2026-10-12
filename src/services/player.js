@@ -351,13 +351,13 @@ for (const playerItem of players) {
             `Players=== ${playerItem.id} ${playerItem.fullname} ${whatsapp_no}`
         );
 
-        whatsappResponseArray.push(
-            whatsappService.sendWhatsAppWelcomeMessage(
-                playerItem.fullname,
-                playerItem.id,
-                whatsapp_no
-            )
-        );
+        // whatsappResponseArray.push(
+        //     whatsappService.sendWhatsAppWelcomeMessage(
+        //         playerItem.fullname,
+        //         playerItem.id,
+        //         whatsapp_no
+        //     )
+        // );
     } else {
         console.log(
             `Invalid contact number: ${playerItem.contact_no} for ${playerItem.id}`
